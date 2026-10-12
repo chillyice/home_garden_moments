@@ -1,0 +1,24 @@
+# 本地工具/IDE 目录(AI 会话与技能/IDE 工程文件,不入库)
+.zcode/
+.agents/
+.opencode/
+.idea/
+
+# Python 字节码缓存(pytest/脚本生成,不入库)
+__pycache__/
+*.pyc
+
+# 本地环境变量/凭证(不入库)
+.env.local
+.env.*.local
+external.yml
+
+# 依赖与构建产物
+node_modules/
+dist/
+target/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
