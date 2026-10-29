@@ -1,0 +1,22 @@
+# Cocos Creator 工程:只提交 assets/ 与工程描述文件
+
+# 编辑器资源库(导入缓存)与临时目录
+/library/
+/temp/
+/local/
+
+# 本地偏好
+/profiles/
+
+# 构建输出
+/build/
+
+# 平台工程(生成物)
+/native/
+
+# 自动生成的原生依赖
+/native/**/build/
+
+# 依赖与日志
+node_modules/
+*.log
